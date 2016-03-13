@@ -15,3 +15,17 @@ Running
 -------
 
     docker-compose up -d
+
+Open the following URL:
+
+    http://$(docker-machine ip):8080
+
+Stopping
+--------
+
+    docker-compose stop
+
+And optionally:
+
+    docker-compose rm
+
