@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="icon" type="image/png" href="assets/images/logo.png">	
+	<title>iMediador App</title>
+	
+    <link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='assets/css/checkbox.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css'  href='assets/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='fonts-css'  href='http://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic&#038;ver=4.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome.min-css'  href='assets/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='simple-line-icons-css'  href='assets/css/simple-line-icons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl.carousel.min-css'  href='assets/css/owl.carousel.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='nivo-lightbox.min-css'  href='assets/css/nivo-lightbox.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='nivo-lightbox_default-css'  href='assets/css/default.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css'  href='assets/css/layout_1_light.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='color_scheme-css'  href='assets/css/green.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='child_style-css'  href='assets/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate.min-css'  href='assets/css/animate.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='mailchimp-for-wp-form-css'  href='assets/css/form.min.css' type='text/css' media='all' />
+    <script type='text/javascript' src='assets/js/jquery.js'></script>
+    <script type='text/javascript' src='assets/js/jquery-migrate.min.js'></script>
+    
+    <style>
+        .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.current > a {
+            color: #c51313;
+        }
+        section-heading:after {
+            background-color: #c51313;
+        }
+        a {
+            color: #c51313;
+        }
+        a:hover, a:focus, a:active {
+            color: #e14747;
+        }
+        .btn-app-download {
+            width: 220px;
+            z-index: 2;
+        }
+        .btn-windows-phone i {
+            font-size: 36px;
+        }
+        .btn-windows-phone-enterprise {
+            font-size: 12px;
+            font-weight: 300;
+            height: auto;
+            letter-spacing: 0.5px;
+            word-wrap: normal;
+            text-transform: none;
+            padding: 10px 12px 8px 12px;
+            background-color: rgba(139,14,24,0.5);
+            line-height: 15px;
+            margin-top: -14px !important;
+            z-index: 1;
+        }
+        .btn-windows-phone-enterprise:hover, .btn-windows-phone-enterprise:active, .btn-windows-phone-enterprise:focus {
+            background-color: rgba(161,16,28,0.5);
+        }
+        .mapfreLogo {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            z-index: 9999; 
+        }
+    </style>
+    
+    
+    <script>
+        var downloadUrls = null;
+        function downloadApp(id) {
+            if(downloadUrls == null) {
+                jQuery.getJSON("downloadConfig.json", function(data) {
+                    downloadUrls = data;
+                    downloadApp(id);
+                });
+            } else {
+                switch(id) {
+                    case 'iOS':
+                        window.location.href = downloadUrls.ios;
+                        break;
+                    case 'Android':
+                        window.location.href = downloadUrls.android;
+                        break;
+                    case 'WP':
+                        window.location.href = downloadUrls.wp;
+                        break;
+                    case 'WP-AET':
+                        window.location.href = downloadUrls.wp_AET;
+                        break;
+                }
+            }
+        }
+    </script>
+    
+</head>
+
+<body class="home page page-id-7 page-template page-template-tpl-home page-template-tpl-home-php">
+    
+    <div id="preloader" class="preloader">
+    	<div class="preloader-inner">
+    		<span class="preloader-logo">
+    			<img src="assets/images/logo.png" alt="" />
+    			<strong>Cargando...</strong>
+    		</span>
+    	</div>
+    </div>
+    
+    <div id="document" class="document">
+    <!--
+    =================================
+    HEADER
+    =================================
+    -->
+    <header  class="header-section navbar navbar-fixed-top navbar-default header-floating header-fixed">
+    	<div class="container">
+    
+    		<div class="navbar-header">
+    
+    			<!-- RESPONSIVE MENU BUTTON -->
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    
+    			<!-- NAVBAR LOGO -->
+    			<a class="navbar-brand navbar-logo">
+    				<img src="assets/images/logo.png" alt="" style="height:40px !important; width:40px !important;"/>
+    				<p style="font-size:28px; margin-left:12px; float:right; color: #222;"><span style="color: #ca0505;">i</span>Mediador</p>
+    			</a>
+    			
+    		</div>
+    		<div id="navigation" class="navbar-collapse collapse">
+    		    <!-- NAVIGATION LINKS -->
+    			<ul class="nav navbar-nav navbar-right">
+                    <li>
+    					<a href="#home">Inicio</a>
+    				</li>
+                    <li>
+    					<a href="#features">Características</a>
+    				</li>
+                    <li>
+    					<a href="#screenshots">Capturas</a>
+    				</li>
+                    <li>
+    					<a href="#downloads">Download</a>
+    				</li>
+    			</ul>
+    		</div>
+        </div>
+    </header>
+    
+    <section id="home" class="hero-section hero-layout-1 section parallax-background section-inverse-color" data-stellar-background-ratio="0.4" style="background-image: url(assets/images/bg.jpg);margin-top: 0px;" >
+    	
+    	<div class="mapfreLogo"><img src="assets/images/mapfre-logo.png" width="170" height="25"></div>
+    		
+    	<div class="black-background-overlay"></div>
+        <div class="container">
+        	<div class="hero-content" data-stellar-offset-parent='true'>
+      
+                <!-- HERO TEXT -->
+                <div class="hero-text wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <!-- LOGO -->
+                    <img src="assets/images/logo.png" alt="Logo" class="hero-logo" style="width:90px !important; height:90px !important;" />
+    
+                    <!-- TAGLINE -->
+                    <h1 class="hero-title">Aplicación móvil para Mediadores de <strong>MAPFRE</strong></h1>
+    
+                    <!-- HERO DESCRIPTION -->
+                    <p class="hero-description"><b>iMediador</b> está disponible en las 3 principales plataformas móviles: iOS, Android y Windows Phone</p>
+    
+                    <!-- DOWNLOAD BUTTONS -->
+                    <p class="download-buttons">
+                        <!-- APP STORE DOWNLOAD -->
+    					<a href="javascript:downloadApp('iOS');" class="btn btn-app-download btn-ios">
+    						<i class="fa fa-apple"></i>
+                            <strong>Download App</strong> 
+    						<span>iOS</span>
+    					</a>
+    					<br>
+    					<!-- PLAY STORE DOWNLOAD -->
+    					<a href="javascript:downloadApp('Android');" class="btn btn-app-download btn-primary">
+    						<i class="fa fa-android"></i>
+    						<strong>Download App</strong> 
+    						<span>Android</span>
+    					</a>
+    					<br>
+                        <!-- WINDOWS PHONE STORE DOWNLOAD -->
+    					<a href="javascript:downloadApp('WP');" class="btn btn-app-download btn-windows-phone">
+    						<i class="fa fa-windows"></i>
+    						<strong>Download App</strong> 
+    						<span>Windows Phone</span>
+    					</a>
+    					<br>
+                        <a href="javascript:downloadApp('WP-AET');" class="btn btn-app-download btn-windows-phone btn-windows-phone-enterprise">
+                            Descargar Cuenta de Empresa *
+                        </a>
+                    </p>
+    
+                </div>
+    
+                <!-- HERO IMAGES -->
+                <div class="hero-images wow layout3HeroPhone" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <img src="assets/images/hand.png" class="hero-image parallax" alt="" data-stellar-ratio="0.7" />
+                </div>
+    										
+    		</div>
+    	</div>
+    </section>
+    
+                
+    
+    	
+    <section id="features" class="features-section section">
+    	<div class="container">
+    
+    		<!-- SECTION HEADING -->
+    		<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">
+        		Características
+    		</h2>
+    		<div class="row">
+    			<div class="col-md-6 col-md-offset-3 text-center">
+    				<p class="wow fadeIn" data-wow-duration="1s">
+    				Los Mediadores de MAPFRE tienen disponible desde su teléfono móvil acceso a los Contactos y Gestiones del <b>Sistema de Gestión Comercial</b>. Además de herramientas para la organización del Plan de Visitas y utilidades de recordatorio de parking.</p>
+    			</div>
+    		</div>
+    
+    		<div class="featuers-list-wrapper row">
+    
+    			<!-- FEATURES LEFT -->
+                <div class="col-md-4 col-sm-6">
+    				<ul class="features-list wow features-list-left fadeInLeft" data-wow-duration="1s">
+    				    <li class="features-list-item">
+    						<h5>Totalmente SEGURA</h5>
+    						<p>Inicio de sesión segura mediante NUUMA y password, credenciales de MAPFRE.</p>
+    					</li>
+                        <li class="features-list-item">
+    						<h5>Acceso rápido por PIN</h5>
+    						<p>Incrementa la seguridad al volver a utilizar la aplicación y permite el acceso rápido.</p>
+    					</li>
+                    </ul>
+    			</div>
+                <div class="col-md-4 col-md-push-4 col-sm-6">
+    				<ul class="features-list wow features-list-right fadeInRight" data-wow-duration="1s">
+    				    <li class="features-list-item">
+    						<h5>Actualizado</h5>
+    						<p>Contactos y Gestiones sincronizados con el Sistema de Gestión Comercial.</p>
+    					</li>
+                        <li class="features-list-item">
+    						<h5>Disponibilidad</h5>
+    						<p>Siempre disponible, incluso cuando no hay conexión a internet.</p>
+    					</li>
+    				</ul>
+    			</div>
+    									
+                <!-- CLOSE UP PHONE IMAGE -->
+    			<div class="col-md-4 col-md-pull-4 text-center">
+    				<img src="assets/images/features-phone.png" class="features-image wow fadeInUp" alt="" data-wow-duration="1s" />
+    			</div>
+    			
+    		</div>
+    
+    	</div>
+    </section>
+    
+    
+    
+    
+    
+    <section id="screenshots" class="screenshots-section section">
+    	<div class="container">
+    		<!-- SECTION HEADING -->
+    		<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">
+        		Capturas
+            </h2>
+    		<div class="row">
+        		<!--
+    			<div class="col-md-6 col-md-offset-3 text-center">
+    				<p class="wow fadeIn" data-wow-duration="1s">Showcase your app screenshots into a nice carousel below. You can add as many screenshots as you want.</p>
+    			</div>
+    			-->
+    		</div>
+    		<!-- SCREENSHOT IMAGES -->
+    		<div class="sreenshots-carousel">
+    			<ul class="screenshot-images">
+        			 <!--
+    				<li>
+    					<a href="assets/images/screenshots/01.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/01.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				-->
+    				<li>
+    					<a href="assets/images/screenshots/02.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/02.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/03.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/03.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/04.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/04.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/05.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/05.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/06.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/06.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/07.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/07.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/08.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/08.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/09.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/09.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/10.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/10.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/11.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/11.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/12.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/12.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/13.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/13.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+    				<li>
+    					<a href="assets/images/screenshots/14.png" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
+    						<div class="screenshot-image-inner">
+    							<img src="assets/images/screenshots/14.png" alt="screenshot" class="img-responsive" style="width:100%;" />
+    							<div class="hover"><i class="icon-magnifier-add"></i></div>
+    						</div>
+    					</a>
+    				</li>
+                </ul>
+    		</div>
+    	</div>
+    </section>
+    
+    
+    	
+    
+    						
+    <footer id="downloads" class="footer-section section">
+    				
+    	<div class="container">    				
+    
+    		<!-- DOWNLOAD BUTTONS -->
+    		<p class="download-buttons wow fadeIn" data-wow-duration="1s">
+                <!-- APP STORE DOWNLOAD -->
+    			<a href="javascript:downloadApp('iOS');" class="btn btn-app-download btn-ios">
+    				<i class="fa fa-apple"></i>
+    				<strong>Download App</strong> 
+    				<span>iOS</span>
+    			</a>
+    			<!-- PLAY STORE DOWNLOAD -->
+    			<a href="javascript:downloadApp('Android');" class="btn btn-app-download btn-primary">
+    				<i class="fa fa-android"></i>
+    				<strong>Download App</strong> 
+    				<span>Android</span>
+    			</a>
+                <!-- WINDOWS PHONE STORE DOWNLOAD -->
+    			<a href="javascript:downloadApp('WP');" class="btn btn-app-download btn-windows-phone">
+    				<i class="fa fa-windows"></i>
+    				<strong>Download App</strong> 
+    				<span>Windows Phone</span>
+    			</a>
+    			
+    			<br>
+    			<br>
+                <a href="javascript:downloadApp('WP-AET');">Descargar la Cuenta de Empresa de MAPFRE para Windows Phone</a>
+                <br>
+                <i style="color:#999;">* Es necesario tener instalada la Cuenta de Empresa de MAPFRE para utilizar las aplicaciones de distribución empresarial <a style="color:#136fc5;" href="https://msdn.microsoft.com/en-us/library/windows/apps/jj206943(v=vs.105).aspx" target="_blank">(más información)</a></i>
+
+    		</p>
+    		
+    		<!-- COPYRIGHT -->
+    		<div class="copyright">Copyright © MAPFRE, Todos los derechos reservados</div>
+    												
+    	</div>
+    						
+    </footer>
+    		
+    </div>
+    		
+    		
+    <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='assets/js/retina.min.js'></script>
+    <script type='text/javascript' src='assets/js/smoothscroll.min.js'></script>
+    <script type='text/javascript' src='assets/js/wow.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.nav.min.js'></script>
+    <script type='text/javascript' src='assets/js/nivo-lightbox.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.stellar.min.js'></script>
+    <script type='text/javascript' src='assets/js/owl.carousel.min.js'></script>
+    <script type='text/javascript' src='assets/js/script.js'></script>
+		
+</body>
+
+</html>

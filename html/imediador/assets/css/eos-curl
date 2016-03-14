@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	
+	<!-- METADATA -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/uploads/2015/07/apple-touch-icon.png">	
+	<!-- PAGE TITLE -->
+	<title>Page not found &#8211; EOS</title>
+
+	
+
+	<link rel="alternate" type="application/rss+xml" title="EOS &raquo; Feed" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EOS &raquo; Comments Feed" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/thematicwebs.com\/demo\/wp\/eos\/layout1\/light\/image\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/plugins/mailchimp-for-wp/assets/css/checkbox.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/bootstrap.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='http://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic&#038;ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome.min-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/font-awesome.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/simple-line-icons.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='owl.carousel.min-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/owl.carousel.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo-lightbox.min-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/nivo-lightbox.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo-lightbox_default-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/nivo-lightbox/default.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/layout_1_light.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='color_scheme-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/colors/green.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='child_style-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='animate.min-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/css/animate.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-for-wp-form-css'  href='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/plugins/mailchimp-for-wp/assets/css/form.min.css?ver=2.3.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.2" />
+<style type="text/css">.mc4wp-form input[name="_mc4wp_required_but_not_really"] { display: none !important; }</style></head>
+
+<body class="error404">
+
+	<div id="preloader" class="preloader">
+		<div class="preloader-inner">
+			<span class="preloader-logo">
+				<img src="http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/uploads/2015/07/logo.png" alt="" />
+				<strong>Loading...</strong>
+			</span>
+		</div>
+	</div>
+	<div id="document" class="document">
+	<!--
+	=================================
+	HEADER
+	=================================
+	-->
+			<header  class="header-section navbar navbar-fixed-top navbar-default  ">
+			<div class="container">
+
+				<div class="navbar-header">
+
+					<!-- RESPONSIVE MENU BUTTON -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- NAVBAR LOGO -->
+					<a class="navbar-brand navbar-logo" href="http://thematicwebs.com/demo/wp/eos/layout1/light/image">
+						<img src="http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/uploads/2015/07/navbar-logo.png" alt="" style="height:40px !important; width:104px !important;"/>
+					</a>
+					
+				</div>
+				<div id="navigation" class="navbar-collapse collapse">
+									<!-- NAVIGATION LINKS -->
+					<ul class="nav navbar-nav navbar-right">
+																<li>
+							<a href="http://thematicwebs.com/demo/wp/eos/layout1/light/image">Home</a>
+						</li>
+												<li>
+								<a href="http://thematicwebs.com/demo/wp/eos/layout1/light/image/blog">
+									Blog								</a>
+							</li>
+											
+					</ul>
+
+				</div>
+							</div>
+		</header>
+<!--
+=================================
+TITLE SECTION
+=================================
+-->
+<section id="title" class="title-section section-inverse-color section parallax-background" data-stellar-background-ratio="0.4" style="background-image: url(http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/uploads/hero-bg.jpg); background-repeat: no-repeat; background-size: cover; background-position:center; margin-top: 61px;">
+
+	<!-- BACKGROUND OVERLAY -->
+	<div class="black-background-overlay"></div>
+
+	<div class="container">
+
+		<h1 class="title">  Page not foundEOS</h1>
+
+	</div>
+</section>
+
+<!--
+=================================
+CONTENT SECTION
+=================================
+-->
+<section id="content" class="content-section section">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+
+				<div class="blog-index">
+				
+					<article id="post-1" class="post-1 post">
+						
+						<h1 class="post-title1">404</h1>
+            
+						<h2 class="post-title3">Ups, PAGE NOT FOUND</h2>
+						
+						<h5 class="post-title2">We are sorry, but the page<br>you were looking for doesnot exist.</h5>
+												
+					</article>
+	
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</section>
+						
+			<section id="contact" class="contact-section section collapse">
+				<div class="container">
+			
+					<!-- SECTION HEADING -->
+					<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Get in Touch</h2>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="animated wow fadeIn" data-wow-duration="1s">
+								Have feedback, suggestion, or any thought about our app? Feel free to contact us anytime, we will get back to you in 24 hours.							</p>
+			
+						</div>
+					</div>
+			
+					<!-- CONTACT FORM -->
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<form action="http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-admin/admin-ajax.php?action=_sh_ajax_callback&amp;subaction=sh_contact_form_submit" method="post" id="eos_contact_form" class="contact-form wow fadeInUp" data-wow-duration="1s" role="form">
+								<div class="msgs"><!-- Validation Message here --></div>
+								
+								<div class="form-group">
+									<input type="text" class="form-control" name="contact_name" id="name" placeholder="Your Name" autocomplete="off" required="required">
+								</div>
+								
+								<div class="form-group">
+									<input type="email" class="form-control" name="contact_email" id="email" placeholder="Your Email Address" autocomplete="off" required="required">
+								</div>
+								
+								<div class="form-group">
+									<input type="text" class="form-control" name="contact_subject" id="subject" placeholder="Subject" autocomplete="off">
+								</div>
+								
+								<div class="form-group">
+									<textarea rows="4" class="form-control" name="contact_message" id="message" placeholder="Message" required="required"></textarea>
+								</div>
+								
+								<div class="form-group">
+									<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-primary btn-block">Send Message</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+			
+				</div>
+			</section>
+			<script>
+			jQuery(document).ready(function($) {
+				$('#eos_contact_form').live('submit', function(e){
+				
+					e.preventDefault();
+					var thisform = this;
+					var fields = $(this).serialize();
+					var url= $(this).attr('action');
+					//alert(url);
+					$.ajax({
+						url: url,
+						type: 'POST',
+						data: fields,
+						success:function(res){
+							//salert(res);
+							$('.msgs', thisform).html(res);
+						}
+					});
+				});
+				
+			
+			});
+			</script>
+						
+						<footer class=" footer-section section">
+							<!-- CONTACT SECTION TOGGLE -->
+									<a href="#contact" class="contact-toggle" data-toggle="collapse"><i class="icon-envelope"></i></a>
+							
+				<div class="container">
+			
+					<!-- DOWNLOAD BUTTONS -->
+					<p class="download-buttons wow fadeIn" data-wow-duration="1s">
+												<!-- APP STORE DOWNLOAD -->
+						<a href="#" class="btn btn-app-download btn-ios">
+							<i class="fa fa-apple"></i>
+							<strong>Download App</strong> 
+							<span>from App Store</span>
+						</a>
+																		
+						<!-- PLAY STORE DOWNLOAD -->
+						<a href="#" class="btn btn-app-download btn-primary">
+							<i class="fa fa-android"></i>
+							<strong>Download App</strong> 
+							<span>from Play Store</span>
+						</a>
+												<!-- WINDOWS PHONE STORE DOWNLOAD -->
+						<a href="#" class="btn btn-app-download btn-windows-phone">
+							<i class="fa fa-windows"></i>
+							<strong>Download App</strong> 
+							<span>from Windows Store</span>
+						</a>
+												
+												
+					</p>
+					
+					<!-- SOCIAL MEDIA LINKS -->
+										<ul class="social-media-links wow fadeIn" data-wow-duration="1s">
+												<li>
+							<a href="https://www.facebook.com/">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+												<li>
+							<a href="https://twitter.com/">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+												<li>
+							<a href="http://instagram.com/">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+												<li>
+							<a href="https://www.pinterest.com/">
+								<i class="fa fa-pinterest"></i>
+							</a>
+						</li>
+												<li>
+							<a href="https://dribbble.com/">
+								<i class="fa fa-dribbble"></i>
+							</a>
+						</li>
+											</ul>
+										<!-- COPYRIGHT -->
+										<div class="copyright">Copyright © EOS, All rights reserved</div>
+															
+				</div>
+				
+									
+			</footer>
+		
+		</div>
+		
+		
+		<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/bootstrap.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/retina.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/smoothscroll.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/wow.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/jquery.nav.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/nivo-lightbox.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/jquery.stellar.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/owl.carousel.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://thematicwebs.com/demo/wp/eos/layout1/light/image/wp-content/themes/eos-v1.2.1/js/script.js?ver=4.2.2'></script>
+		
+	</body>
+
+</html>
